@@ -22,7 +22,6 @@ namespace ConsoleApp5._3
                     isWorking = false;
                     break;
                 }
-
                 else if (userInput == "sum")
                 {
                     int sum = 0;
