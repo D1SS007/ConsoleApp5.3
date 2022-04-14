@@ -32,18 +32,16 @@ namespace ConsoleApp5._3
                     }
 
                     Console.WriteLine("Сумма всех чисел в массиве : " + sum);
-
-                    break;
                 }
                 else if(Int32.TryParse(userInput, out number))
                 {                    
                     numbers.Add(number);
+                    
                     Console.WriteLine($"Число {number} добавлено\n");
                 }
                 else
                 {
-                    Console.WriteLine($"Невозможно преобразовать {userInput} в число");
-                   
+                    Console.WriteLine($"Невозможно преобразовать {userInput} в число");                   
                 }
             }
         }
